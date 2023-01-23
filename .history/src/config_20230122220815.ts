@@ -2,5 +2,4 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'What I use - Luis Lucas'
-export const SITE_DESCRIPTION = 'A curated list of the tech I use'
-export const HOMEPAGE_URL = 'https://www.luislucas.com'
+export const SITE_DESCRIPTION = 'Welcome to my website!'

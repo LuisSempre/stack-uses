@@ -27,6 +27,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
       ul li time {
         flex: 0 0 130px;
         font-style: italic;
+        color: #595959;
       }
       ul li a:visited {
         color: #8e32dc;
@@ -35,7 +36,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
   </head>
   <body>
     <Header />
-    <main class="text-white text-xl bg-black">
+    <main class="text-xl text-purple-700">
       <section>
         <ul>
           {
